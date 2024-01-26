@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
+  }
+
+body{
+    background-color: lightgray;
+    font-family: arial;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    height: 2cm;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    
+}
+
+
+.logo-header img{
+    height: 1.5cm;
+    width: 3.4cm;
+}
+
+.img-logo{
+    height: 3cm;
+    width: 3cm;
+}
+
+.menu{
+    width: 100%;
+    height: 20cm;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+ .biblia, .versiculo-dia, .harpa, .mais{
+    
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(214, 248, 241);
+    
+ }
+
+ .biblia img, .versiculo-dia img, .harpa img , .mais img{
+
+
+    height: 4cm;
+    width: 4cm;
+
+
+ }
+.versiculo-dia img{
+    height: 3cm;
+    width: 3cm;
+    margin-top: 57%;
+}
+
+.biblia img, .devocional img {
+
+margin-top: 40%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

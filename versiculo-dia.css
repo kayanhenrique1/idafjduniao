@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.versiculo-dia{
+    height: 17cm;
+    width: 100%;
+    background-image: url("/img/montanhas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.versiculo{
+    height: 70%;
+    width: 80%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity:  0.8;
+    border-radius: 10px;
+    
+    
+}
+
+
+.dailyVerses.bibleVerse
+{
+margin-top: .5em;
+}
+
+.dailyVerses.bibleVerse a
+{
+font-weight: bold;
+}
+
+.audio{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
